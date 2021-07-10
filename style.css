@@ -140,11 +140,48 @@ button:hover{
   background: linear-gradient(#ff54a2,#ff575a);
   height: 100%;
   width: 80%;
-  z-index: 1;
+  z-index: -1;
   transform: translateX(150px);
 }
 
 .add-btn img{
   width: 35px;
   margin-bottom: 5px;
+}
+
+.add-btn {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social-links img{
+  height: 13px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.social-links{
+  text-align: center;
+}
+
+@media only screen and (max-width:700px){
+  nav ul{
+    width: 100%;
+    background: linear-gradient(#ff54a2,#ff575a);
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a{
+    color: #fff;
+  }
+
 }
